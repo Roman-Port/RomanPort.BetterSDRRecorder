@@ -40,6 +40,9 @@ namespace RomanPort.BetterSDRRecorder.Recorders
                 case BasicRecorderOutput.Wav:
                     output = new BasicRecorderOutputWav();
                     break;
+                case BasicRecorderOutput.Mp3:
+                    output = new BasicRecorderOutputMp3();
+                    break;
                 default:
                     throw new Exception("Unsupported output type!");
             }
@@ -76,6 +79,7 @@ namespace RomanPort.BetterSDRRecorder.Recorders
     public enum BasicRecorderOutput
     {
         Raw = 0,
-        Wav = 1
+        Wav = 1,
+        Mp3 = 2
     }
 }

@@ -133,7 +133,8 @@
             this.recordAudioOutput.FormattingEnabled = true;
             this.recordAudioOutput.Items.AddRange(new object[] {
             "Raw",
-            "Wav"});
+            "Wav",
+            "MP3"});
             this.recordAudioOutput.Location = new System.Drawing.Point(7, 19);
             this.recordAudioOutput.Name = "recordAudioOutput";
             this.recordAudioOutput.Size = new System.Drawing.Size(71, 21);

@@ -70,6 +70,7 @@
     <Compile Include="Framework\WavEncoder.cs" />
     <Compile Include="Framework\WavSampleFormat.cs" />
     <Compile Include="Recorders\BasicRecorder.cs" />
+    <Compile Include="Recorders\BasicRecorderOutputs\BasicRecorderOutputMp3.cs" />
     <Compile Include="Recorders\BasicRecorderOutputs\BasicRecorderOutputRaw.cs" />
     <Compile Include="Recorders\BasicRecorderOutputs\BasicRecorderOutputWav.cs" />
     <Compile Include="Recorders\BasicRecorderOutputs\IBasicRecorderOutput.cs" />

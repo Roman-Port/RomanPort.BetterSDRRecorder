@@ -8,11 +8,11 @@ The better SDR recorder is a work in progress plugin to improve on the crappy bu
 ## Features
 * **Rewind buffer** to save transmissions received if the record button wasn't pressed
 * Ability to push audio in the replay buffer into the recording session to continue recording, without interruption
+* **MP3** audio export option
 * **Arbitrary recording save location**, prompted after the recording is finished
 * **No more file size limit** of 2^31 bytes. Recordings are automatically split
-* **Raw or WAV** export of audio samples
+* **Raw, WAV or MP3** export of audio samples
 * Split audio/baseband recording sessions
-* *Planned* Ability to automatically compress recordings
 
 ## Known Bugs
 * Saved IQ is not displayed at the correct frequency, but plays back fine
@@ -20,7 +20,7 @@ The better SDR recorder is a work in progress plugin to improve on the crappy bu
 ## Installation
 **This is pre-release software**.
 
-* Download the DLL from the releases tab in GitHub
+* Download the DLL from the releases tab in GitHub (note that it is likely to be outdated)
 * Save the downloaded DLL to the SDRSharp folder
 * In ``Plugins.xml``, in your SDRSharp folder, add the following line before ``</sharpPlugins>``:
 ```<add key="RomanPort Better SDR Recorder" value="RomanPort.BetterSDRRecorder.BetterSDRRecorderPlugin,RomanPort.BetterSDRRecorder" />```
